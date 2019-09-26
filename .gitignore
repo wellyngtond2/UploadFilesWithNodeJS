@@ -1,0 +1,5 @@
+# ignore an entire directory
+
+# dependencies
+/node_modules/*
+/tmp
