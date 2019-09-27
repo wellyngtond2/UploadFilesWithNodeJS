@@ -7,9 +7,11 @@
   },
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "nodemon": "^1.19.2"
   }
 }
