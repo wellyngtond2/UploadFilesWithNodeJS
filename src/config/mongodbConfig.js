@@ -1,5 +1,5 @@
 module.exports = {
-  urlDb: "mongodb://localhost:27017/upload",
+  urlDb: process.env.MONGO_URL,
   param: {
     useNewUrlParser: true,
     useUnifiedTopology: true
